@@ -1,0 +1,13 @@
+import numpy as np
+import matplotlib.pyplot as plt
+x = np.linspace(0, 1, 100)
+plt.figure(0)
+plt.gca().set_aspect('equal', adjustable='box')
+plt.title('logistic map')
+plt.grid(True)
+plt.xlabel('$y(x)$', fontsize=20)
+plt.ylabel('$x$')
+plt.plot(4*x*(1-x),x)
+plt.plot(x,x)
+plt.legend(["$x(x-4)$",'x'])
+plt.show()
