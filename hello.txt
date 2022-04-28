@@ -11,3 +11,6 @@ plt.plot(4*x*(1-x),x)
 plt.plot(x,x)
 plt.legend(["$x(x-4)$",'x'])
 plt.show()
+
+use command to upload changed repository 
+git push 
