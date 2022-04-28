@@ -12,5 +12,9 @@ plt.plot(x,x)
 plt.legend(["$x(x-4)$",'x'])
 plt.show()
 
-use command to upload changed repository 
+
+
+to add files to github repository
+git add filename
+git commit and add comments
 git push 
